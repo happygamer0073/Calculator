@@ -1,0 +1,38 @@
+.button {
+  color: black;
+  background-color: red;
+  border-radius: 2px white;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+  margin-top: 3px;
+  align-items: center;
+}
+.button:hover {
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  transform: scale(1.2);
+}
+.text {
+  box-shadow: 1px 1px 4px rgb(255, 255, 255);
+  margin-left: 3px;
+  width: 40px;
+}
+div {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  color: white;
+}
+p {
+  margin-left: 5px;
+}
+body {
+  background-color: grey;
+}
+h2 {
+  color: white;
+}
+span {
+  color: gold;
+}
